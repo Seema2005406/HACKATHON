@@ -1,0 +1,8 @@
+DM.Brake -  Vehicle.Chassis.Brake.PedalPosition
+DM.Gas   - Vehicle.Chassis.Accelerator.PedalPosition
+FMU.SWAN_Vco.In.Bdy_vVeh  -   Vehicle.Speed
+FMU.SWAN_Vco.In.Ema_tqEffEma - Vehicle.Powertrain.ElectricMotor.Torque
+FMU.SWAN_Vco.Out.Vco_tqDesEdr - Vehicle.Powertrain.ElectricMotor.TimeInUse
+Brake.Hyd.Sys.pMC - Vehicle.Chassis.Axle.Row1.Wheel.Left.Brake.FluidLevel
+Brake.Trq_WB_RL   - Vehicle.Chassis.Axle.Row1.Wheel.Left.Tire.Pressure
+Brake.Trq_WB_RR  - Vehicle.Chassis.Axle.Row1.Wheel.Right.Tire.Pressure
